@@ -1,24 +1,9 @@
-// let students = 30;
+// let username = window.prompt("What's your username?");
 
-// students = students + 1;
-// students = students - 1;
-// students = students * 2;
-// students = students / 2;
-// students = students ** 2;
-// let extraStudents = students % 3;
+// console.log(username);
 
-// students += 1;
-// students -= 1;
-// students *= 2;
-// students /= 2;
-// students **= 2;
-// students %= 2;
-
-// student++;
-// student--;
-
-// console.log(students);
-
-let result = 1 + 2 * 3 + 4 ** 2;
-
-console.log(result);
+let username;
+document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("myText").value;
+    document.getElementById("myH1").textContent = `Hello ${username}`;
+}
