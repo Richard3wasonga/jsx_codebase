@@ -1,19 +1,24 @@
-// let age = 25;
-// let price = 10.99;
-// let gpa = 2.1;
+// let students = 30;
 
-// let firstName = "Row"
-// let favoriteFood = "Pizza";
-// let email = "row123@gmail.com"
+// students = students + 1;
+// students = students - 1;
+// students = students * 2;
+// students = students / 2;
+// students = students ** 2;
+// let extraStudents = students % 3;
 
-// let online = false;
-// let forSale = true;
-// let isStudent = true;
+// students += 1;
+// students -= 1;
+// students *= 2;
+// students /= 2;
+// students **= 2;
+// students %= 2;
 
-let fullName = "Ricahrd Wasonga"
-let age = 20;
-let isStudent = false;
+// student++;
+// student--;
 
-document.getElementById("p1").textContent = `Your name is ${fullName}`;
-document.getElementById("p2").textContent = `You are ${age} years old`;
-document.getElementById("p3").textContent = `Enrolled ${isStudent}`;
+// console.log(students);
+
+let result = 1 + 2 * 3 + 4 ** 2;
+
+console.log(result);
