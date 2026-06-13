@@ -1,17 +1,12 @@
-// let age = window.prompt("How old are you?");
-// age = Number(age);
-// age+=1;
+const PI = 3.14159;
+let radius;
+let circumfrence;
 
-// console.log(age, typeof age);
+// radius = window.prompt('Enter the radius of a circle');
 
-let x;
-let y;
-let z;
-
-x = Number(x);
-y = String(y);
-z = Boolean(z);
-
-console.log(x, typeof x);
-console.log(y, typeof y);
-console.log(z, typeof z);
+document.getElementById("mySubmit").onclick = function(){
+    radius = document.getElementById("myText").value;
+    radius = Number(radius);
+    circumfrence = 2 * PI * radius;
+    document.getElementById("myH3").textContent = circumfrence + "cm";
+}
