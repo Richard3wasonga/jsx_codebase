@@ -1,29 +1,70 @@
-// let randomNum = Math.floor(Math.random() * 6) + 1;
+// let age = 13;
+// if(age >= 18){
+//     console.log("You are old enough to eneter this site");
+// }
+// else{
+//     console.log("You must be 18+ to enter");
+// }
 
-// console.log(randomNum);
 
-// const min = 50;
-// const max = 100;
+// let time = 14;
 
-// let randomNum = Math.floor(Math.random() * (max - min)) + min;
+// if(time < 12){
+//     console.log("Good morning")
+// }
+// else{
+//     console;.log("Good afternoon")
+// }
 
-// console.log(randomNum)
 
-const myButton = document.getElementById("myButton");
-const label1 = document.getElementById("label1");
-const label2 = document.getElementById("label2");
-const label3 = document.getElementById("label3");
-const min = 1;
-const max = 6;
-let randomNum1;
-let randomNum2;
-let randomNum3;
+// let isStudent = false;
 
-myButton.onclick = function(){
-    randomNum1 = Math.floor(Math.random() * max) + min;
-    randomNum2 = Math.floor(Math.random() * max) + min;
-    randomNum3 = Math.floor(Math.random() * max) + min;
-    label1.textContent = randomNum1
-    label2.textContent = randomNum2
-    label3.textContent = randomNum3
+// if(isStudent){
+//     console.log("You are a student");
+// }
+// else{
+//     console.log("You are not a student");
+// }
+
+// let age = 18;
+// let hasLicense = false;
+
+// if(age >= 16){
+//     console.log("You are old enough to drive")
+
+//     if(hasLicense){
+//         console.log("You have your license!");
+//     }else{
+//         console.log("You do not have your license yet!");
+//     }
+// }
+// else{
+//     console.log("You must be 16+ to have a license")
+// }
+
+const myText = document.getElementById("myText");
+const mySubmit = document.getElementById("mySubmit");
+const resultElement = document.getElementById("resultElement");
+
+let age;
+
+mySubmit.onclick = function (){
+    age = myText.value 
+    age = Number(age)
+    if(age >= 100){
+        resultElement.textContent = `You are too old to enter this site`;
+    }
+    else if(age == 0){
+        resultElement.textContent = `You can't enter. you were just born`;
+    }
+    else if(age >= 18){
+        resultElement.textContent = `You are old enough to enter this site`;
+    }
+    else if(age < 0){
+        resultElement.textContent = `Your age can't be below 0`;
+    }
+    else{
+        resultElement.textContent = `You must be 18+ to enter this site`;
+    }
 }
+
