@@ -1,49 +1,30 @@
-// let day = 1;
+// let userName = "Row ";
 
-// switch(lday){
-//     case 1:
-//         console.log("It is Monday");
-//         break;
-//     case 2:
-//         console.log("It is Tuesday");
-//         break;
-//     case 3:
-//         console.log("It is Wednesday");
-//         break;
-//     case 4:
-//         console.log("It is Thursday");
-//         break;
-//     case 5:
-//         console.log("It is Friday");
-//         break;
-//     case 6:
-//         console.log("It is Saturday");
-//         break;
-//     case 7:
-//         console.log("It is Sunday");
-//         break;
-//     default:
-//         console.log(`${day} is not a day`)
+// console.log(userName.charAt(0));
+// console.log(userName.indexOf("w"));
+// console.log(userName.lastIndexOf("w"));
+// console.log(userName.length);
+// userName = userName.trim();
+// userName = userName.toUpperCase();
+// userName = userName.toLowerCase();
+// userName = userName.repeat(3);
+// console.log(userName);
+
+// let result = userName.startsWith(" ");
+// let result = userName.endsWith(" ");
+// let result = userName.includes(" ");
+
+// if(result){
+//     console.log("Your username can't start include ' ");
+// }
+// else{
+//     console.log(userName);
 // }
 
-let testScore = 33;
-let letterGrade;
+let phoneNumber = "123-456-7890"
 
+// phoneNumber = phoneNumber.replaceAll("-", "/");
+// phoneNumber = phoneNumber.padStart(15, "0");
+phoneNumber = phoneNumber.padEnd(15, "0");
 
-switch(true){
-    case testScore >= 90:
-        letterGrade = "A";
-        break;
-    case testScore >= 80:
-        letterGrade = "B";
-        break;
-    case testScore >= 70:
-        letterGrade = "C";
-        break;
-    case testScore >= 60:
-        letterGrade = "D";
-        break;
-    default:
-        letterGrade = "F"
-}
-console.log(letterGrade);
+console.log(phoneNumber);
