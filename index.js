@@ -1,30 +1,21 @@
-// let userName = "Row ";
+// const fullName = "Mina Kena";
 
-// console.log(userName.charAt(0));
-// console.log(userName.indexOf("w"));
-// console.log(userName.lastIndexOf("w"));
-// console.log(userName.length);
-// userName = userName.trim();
-// userName = userName.toUpperCase();
-// userName = userName.toLowerCase();
-// userName = userName.repeat(3);
-// console.log(userName);
+// let firstName = fullName.slice(0, 4);
+// let lastName = fullName.slice(5);
 
-// let result = userName.startsWith(" ");
-// let result = userName.endsWith(" ");
-// let result = userName.includes(" ");
+// let firstChar = fullName.slice(0, 1);
+// let lastChar = fullName.slice(-1);
 
-// if(result){
-//     console.log("Your username can't start include ' ");
-// }
-// else{
-//     console.log(userName);
-// }
+// let firstName = fullName.slice(0, fullName.indexOf(" "));
+// let lastName = fullName.slice(fullName.indexOf(" ") + 1);
 
-let phoneNumber = "123-456-7890"
+// console.log(firstName);
+// console.log(lastName);
 
-// phoneNumber = phoneNumber.replaceAll("-", "/");
-// phoneNumber = phoneNumber.padStart(15, "0");
-phoneNumber = phoneNumber.padEnd(15, "0");
+const email = "row@gmail.com";
 
-console.log(phoneNumber);
+let username = email.slice(0, email.indexOf("@"));
+let extension = email.slice(email.indexOf("@") + 1);
+
+console.log(username);
+console.log(extension);
