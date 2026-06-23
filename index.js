@@ -1,21 +1,16 @@
-// const fullName = "Mina Kena";
+let username = window.prompt("Enter your username: ");
 
-// let firstName = fullName.slice(0, 4);
-// let lastName = fullName.slice(5);
 
-// let firstChar = fullName.slice(0, 1);
-// let lastChar = fullName.slice(-1);
+// username = username.trim();
+// let letter = username.charAt(0);
+// letter = letter.toUpperCase();
 
-// let firstName = fullName.slice(0, fullName.indexOf(" "));
-// let lastName = fullName.slice(fullName.indexOf(" ") + 1);
+// let extraChars = username.slice(1);
+// extraChars = extraChars.toLowerCase();
+// username = letter + extraChars;
 
-// console.log(firstName);
-// console.log(lastName);
+// console.log(username);
 
-const email = "row@gmail.com";
-
-let username = email.slice(0, email.indexOf("@"));
-let extension = email.slice(email.indexOf("@") + 1);
+username = username.trim().charAt(0).toUpperCase() + username.trim().slice(1).toLowerCase();
 
 console.log(username);
-console.log(extension);
