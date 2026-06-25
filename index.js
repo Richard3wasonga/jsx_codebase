@@ -1,44 +1,16 @@
-// let username = "";
-
-// while(username === "" || username === null){
-//     username = window.prompt(`Enter your name`);
+// for(let i = 10; i > 0; i-=3){
+//     console.log(i);
 // }
-// console.log(`Hello ${username}`);
 
+// console.log("HAPPY NEW YEAR!");
 
-// let username;
-
-// do{
-//     username = window.prompt(`Enter your name`);
-// }while(username === "" || username === null)
-// console.log(`Hello ${username}`);
-
-let loggedIn = false;
-let username;
-let password;
-
-while(!loggedIn){
-    username = window.prompt(`Enter your username`);
-    password = window.prompt(`Enter your password`);
-
-    if(username === "myUsername" && password === "myPassword"){
-        loggedIn = true;
-        console.log("You are logged in!");
+for(let i = 1; i <= 20; i++){
+    if(i == 13){
+        // continue;
+        break;
     }
     else{
-        console.log("Invaid credentials! please try again");
+        console.log(i);
     }
-}
-
-// do{
-//     username = window.prompt(`Enter your username`);
-//     password = window.prompt(`Enter your password`);
-
-//     if(username === "myUsername" && password === "myPassword"){
-//         loggedIn = true;
-//         console.log("You are logged in!");
-//     }
-//     else{
-//         console.log("Invaid credentials! please try again");
-//     }
-// }while(!loggedIn)
+    }
+    
