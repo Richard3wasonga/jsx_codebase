@@ -1,7 +1,6 @@
 // for(let i = 10; i > 0; i-=3){
 //     console.log(i);
 // }
-
 // console.log("HAPPY NEW YEAR!");
 
 for(let i = 1; i <= 20; i++){
